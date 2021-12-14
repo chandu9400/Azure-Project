@@ -1,2 +1,2 @@
 # Azure-Project
-AZURE PROJECT FOR SUBMISSION IN FUTURE READY TALENT
+https://staticwebaccounts.z19.web.core.windows.net/
