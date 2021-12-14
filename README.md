@@ -1,2 +1,3 @@
 # Azure-Project
 https://staticwebaccounts.z19.web.core.windows.net/
+It is static webpage based on Illegal bowling action monitoring system using Azure service. Since my project is based on field work, i have demonstrated some tools and techniques to make this project happen...
