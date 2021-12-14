@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>
+	<br><div class="navbar">
+	<button class="ton"><a href="projectAzure.html">BACK TO PAGE</a></button>
+</div>
+<h3><center><b>1. AI + MACHINE LEARNING</b></center></h3>
+<br>
+<img src="micro.png" class="logo">
+<div class="matter">
+	<p>Using Machine learning, we can provide ways to analyse how the players are executing the bowling actions. We'll train the sensor to take decisions on whether the bowler is abiding the bowling laws or not.</p>
+
+<br>
+<p>Computer vision, among the azure AI services, is an area of artificial intelligence (AI) in which software systems are designed to perceive the world visually, though cameras, images, and video. There are multiple specific types of computer vision problem that AI engineers and data scientists can solve using a mix of custom machine learning models and platform-as-a-service (PaaS) solutions - including many cognitive services in Microsoft Azure. Computer vision is one of the core areas of artificial intelligence (AI), and focuses on creating solutions that enable AI applications to "see" the world and make sense of it.</p>
+<br>
+
+<p>Of course, computers don't have biological eyes that work the way ours do, but they are capable of processing images; either from a live camera feed or from digital photographs or videos. This ability to process images is the key to creating software that can emulate human visual perception.</p>
+<br>
+<p>This service will help to analyse bowling actions, including various parameters, like arm flex, release angle, etc.</p>
+<br>
+<p>So, here I have created resource on Azure platform for creating computer vision cognitive service.</p>
+<br></p>
+
+<img src="cognitive.png" width="600" class="center">
+
+
+<br>
+<p>
+After creating the resource, create a project on Computer Vision AI. The Computer Vision cognitive service uses pre-trained machine learning models to analyze images and extract information about them.
+
+For example, here the training images are provided, with categories as arm flow, and Jasprit Bumhra's(Indian cricketer (Seamer)) actions.
+</p>
+
+<br>
+
+<img src="TrainingImages.jpg" width="600" class="center">
+<br>
+<p>
+After training the data, the model will be able to have a quick test against any other testing images. Here is the demo --</p>
+
+<br>
+<video width="550" height="300" controls>
+	<source src="Custom Vision_ Bowling action - Predictions and 9 more pages - Personal - Microsoft​ Edge 2021-12-11 00-34-01.mp4" type="video/mp4" style ="width: 50%;"class="center">
+</video>
+<br>
+<hr>
+<h3><b><center>2. AZURE FUNCTIONS</center></b></h3>
+<br>
+<p>
+Before providing means to detect and identify errors, here comes the need to store data, files, and other fundamentals in order to avail functionality of the sensors. Azure Cosmos DB is a globally distributed database system that allows to read and write data from the local replicas of your database and it transparently replicates the data to all the regions associated with own Cosmos account.
+Cosmos DB is ideally suited for IoT solutions. Cosmos DB can ingest device telemetry data at high rates and can serve indexed queries back with low latency and high availability. Then, with Azure Functions service, we can host a single method or a function by using a programming language, that respond to database changes, process IoT streams, manage message queues, and more. </p>
+<br>
+<h3><b><center>3. AZURE IoT CENTRAL </center></b></h3><p>
+At last, the total analysis, previous details from past experience, real time monitoring, etc will now be handled by Iot Central.Events generated from IoT devices are sent to the analyze and transform layer through Azure IoT Central as a stream of messages. Azure IoT Hub stores streams of data in partitions for a configurable amount of time.</p>
+<br>
+
+<img src="iotcentral.png" width="600" class= "center">
+
+<br>
+<p>
+Here, we can build scalable solutions faster with the IoT Plug and Play app, which helps simplify device interactions. The app's open modelling language enables seamless device-to-cloud integration and helps reduce development time, cost and complexity. Build devices that integrate seamlessly with any Azure IoT cloud solution and accelerate solutions without writing embedded code.</p>
+</div>
+</body>
+</html>
